@@ -1,0 +1,1257 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(images/achtergrond.png) no-repeat;
+    background-size: cover;
+    font-family: Helvetica;
+}
+
+#achtergrond {
+    display: flex;
+    position: absolute;
+    background: linear-gradient(to right, rgb(18,79,37), rgb(21,134,85), rgb(0,74,34));
+    width: 50%;
+    height: 50%;
+    top: 23%;
+    left: 25%;
+    border-radius: 3%;
+    border: 15px solid #89462A;
+}
+
+.draaitafel {
+    display: flex;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    width: 20%;
+}
+
+.rij1 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.55%;
+    left: 41.5%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.p1-18 {
+    color: white;
+    padding-left: 28%;
+    padding-top: 10%;
+}
+
+.rij2 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.6%;
+    left: 46.15%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.peven {
+    color: white;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.rij3 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.65%;
+    left: 50.85%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+    font-weight: bold;
+}
+
+.pred {
+    color: white;
+    padding-left: 25.5%;
+    padding-top: 10%;
+}
+
+.rij4 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.6%;
+    left: 55.55%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+.pblack {
+    color: white;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.rij5 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.6%;
+    left: 60.2%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.podd {
+    color: white;
+    padding-left: 24%;
+    padding-top: 10%;
+}
+
+.rij6 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 9%;
+    width: 4.6%;
+    left: 64.9%;
+    text-align: center;
+    top: 57%;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.p19-36 {
+    color: white;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.rij7 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 7%;
+    width: 9.25%;
+    left: 41.5%;
+    text-align: center;
+    top: 49.9%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.p1st {
+    color: white;
+    padding-left: 30%;
+    font-size: 20px;
+    margin-top: 8%;
+}
+
+.rij8 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 7%;
+    width: 9.3%;
+    left: 50.82%;
+    text-align: center;
+    top: 49.9%;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.p2nd {
+    color: white;
+    padding-left: 30%;
+    font-size: 20px;
+    margin-top: 8%;
+}
+
+.rij9 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 7%;
+    width: 9.3%;
+    left: 60.2%;
+    text-align: center;
+    top: 49.9%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.p3rd {
+    color: white;
+    padding-left: 30%;
+    font-size: 20px;
+    margin-top: 8%;
+}
+
+.vak1 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.275%;
+    left: 41.5%;
+    text-align: center;
+    top: 44.3%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak1en1 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak2 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 41.5%;
+    text-align: center;
+    top: 39%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak2en2 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak3 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 41.5%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak3en3 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak4 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.15%;
+    width: 2.275%;
+    left: 43.85%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak4en4 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak5 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.35%;
+    width: 2.275%;
+    left: 43.85%;
+    text-align: center;
+    top: 39.15%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak5en5 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak6 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 43.85%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak6en6 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak7 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.15%;
+    width: 2.275%;
+    left: 46.19%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak7en7 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak8 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.275%;
+    left: 46.19%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak8en8 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak9 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 46.2%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak9en9 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak10 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.15%;
+    width: 2.275%;
+    left: 48.5%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak10en10 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak11 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.275%;
+    left: 48.5%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak11en11 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak12 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 48.5%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak12en12 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak15 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 50.85%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak15en15 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak14 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 50.85%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak14en14 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak13 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    height: 5.14%;
+    width: 2.275%;
+    left: 50.85%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak13en13 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak16 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    height: 5.14%;
+    width: 2.275%;
+    left: 53.2%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak16en16 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak17 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 53.2%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak17en17 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak18 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.275%;
+    left: 53.2%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak18en18 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak19 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 55.5%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak19en19 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak20 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.25%;
+    left: 55.55%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak20en20 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak21 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.25%;
+    left: 55.55%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak21en21 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak22 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 57.85%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak22en22 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak23 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.26%;
+    left: 57.85%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak23en23 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak24 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.26%;
+    left: 57.85%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak24en24 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak25 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 60.2%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak25en25 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak26 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.26%;
+    left: 60.2%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak26en26 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak27 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.26%;
+    left: 60.23%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak27en27 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak28 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 62.55%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak28en28 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak29 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.26%;
+    left: 62.55%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak29en29 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak30 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.26%;
+    left: 62.55%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak30en30 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak31 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 64.9%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak31en31 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak32 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.26%;
+    left: 64.9%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak32en32 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak33 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.26%;
+    left: 64.9%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak33en33 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak34 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 67.25%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak34en34 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak35 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.26%;
+    left: 67.25%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.vak35en35 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak36 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.5%;
+    width: 2.26%;
+    left: 67.25%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #CF0000;
+}
+
+.vak36en36 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 20px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak37 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.14%;
+    width: 2.275%;
+    left: 69.6%;
+    text-align: center;
+    top: 44.6%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.vak37en37 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 10px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak38 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.4%;
+    width: 2.275%;
+    left: 69.6%;
+    text-align: center;
+    top: 39.1%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.vak38en38 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 10px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+
+.vak39 {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 5.45%;
+    width: 2.275%;
+    left: 69.6%;
+    text-align: center;
+    top: 33.5%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.vak39en39 {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 10px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+.vak0 {
+    position: absolute;
+    display: flex;
+    height: 16.2%;
+    width: 2.3%;
+    top: 33.5%;
+    z-index: 1;
+    left: 39.2%;
+    color: white;
+    border: 1px solid white;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #009245;
+}
+
+.vak0en0 {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 35%;
+}
+
+.draaitafel:hover {
+    transform: rotate(180deg);
+    transition: transform 3s
+}
+
+#chip1 {
+    position: absolute;
+    z-index: 100;
+    height: 2rem;
+    left: 41.2%;
+    top: 45.1%;
+}
